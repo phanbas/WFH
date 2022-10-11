@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+p{
+    letter-spacing: 1.15px;
+    line-height: 1.25rem;
+}
+/*---------start hover----------------------*/
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  
+  
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.05);
+    cursor: pointer;
+}
+/*---------End hover----------------------*/
+
+.card-text{
+    white-space: nowrap; 
+    width: auto; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
+}
+
+.slide{
+   height: 500px;
+   width: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.text-image{
+    position : absolute;
+    left: 20%;
+    bottom: 15%;
+}
+.text-image-show{
+ 
+    display: flex;
+    background-color: red;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+
+}
+.text-image :hover {
+    cursor: pointer;
+} 
+.text-image h1{
+    color: white;
+}
+

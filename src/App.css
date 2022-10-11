@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'react-multi-carousel/lib/styles.css';
+
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 18px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  p {
+    font-size: 20px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .topic-text {
+    font-size: 24px;
+  }
+}
+
+
+h3{
+  font-weight: bold;
+}
+.desc{
+  
+  color: #444;
+  line-height: 1.8rem;
+  letter-spacing: 0.05px;
+}
+
+.topbar{
+  background: rgb(226, 247, 255);
+  letter-spacing: 2px;
+}
+.top-sticky{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.card-title h1 {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.topic-img{
+  width: 100%;
+  height: auto;
+}
+.topic{
+  margin-top:2rem;
+}
+
+.topic-left{
+  padding: 2em;
+  overflow: hidden;
+}
+.topic-left img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.topic-right{
+  padding: 2em;
+  overflow: hidden;
+}
+.topic-right img{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.topic-text {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  
+}
+.topic-text p{
+  color: white;
+
+  margin: auto;
+}
+p{
+ 
+  color: #444;
+  
+  
+}
+.topic-text h2{
+  
+  letter-spacing: 0.005em;
+  color: white;
+  font-size: 48px;
+}
+
+.name{
+ color: black;
+ font-weight: bold;
+}
+.bold{
+  font-weight: bold;
+  color: black;
+  word-break: normal;
+}
+figcaption{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+figcaption h1{
+  color: white;
+  letter-spacing: 2px;
+}
+/*---------start hover----------------------*/
+/* Zoom In #1 */
+.hover01 figure img {
+
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  
+  
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.1);
+    cursor: pointer;
+}
+/*---------End hover----------------------*/
+.logo{
+  width: 190px;
+  height: auto;
+  margin-left: 20px;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.picshow img{
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+/*---------------topic---------------------------*/
+
+.topicbox img{
+  width:636px;
+  height:424px;
+  object-fit: contain;
+  
+  
+}
+.seemore{
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
